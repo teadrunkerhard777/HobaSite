@@ -18,8 +18,19 @@ body{
     color:rgb(255, 255, 255) ;
 }
 
+.navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border-radius: 10px;
+    transition:.3s;
+}
+
 .navbar-brand img {
-    width: 120px;
+    width: 150px;
+    max-height: 52px;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .18));
 }
     
 .navbar{
@@ -101,25 +112,23 @@ body{
     text-decoration: none;
 }
 
-#carouselExampleControls {
+#carouselExampleControls,
+.site-carousel {
     border-radius:8px;
     overflow:hidden;
     box-shadow:0 8px 24px rgba(18, 55, 45, .16);
 }
 
-#carouselExampleControls img {
+#carouselExampleControls img,
+.site-carousel img {
+    aspect-ratio: 16 / 9;
     border-radius:8px;
-}
-
-.navbar-brand{
-
-    transition:.3s;
-
+    object-fit: cover;
 }
 
 .navbar-brand:hover{
 
-    transform:scale(1.08);
+    transform:translateY(-1px);
 
 }
 .btn-primary{
@@ -247,6 +256,29 @@ align-items: center;
     margin-bottom: 24px;
     color: #495057;
     line-height: 1.6;
+}
+
+.page-intro {
+    padding: 24px 28px;
+    border-left: 5px solid #ffc107;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+.page-intro h1 {
+    margin-bottom: 8px;
+    color: #212529;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.page-intro p:last-child {
+    max-width: 720px;
+    margin-bottom: 0;
+    color: #495057;
+    font-size: 18px;
+    line-height: 1.55;
 }
 
 .bear-fact {
