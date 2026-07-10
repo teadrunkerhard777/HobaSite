@@ -10,6 +10,10 @@ body{
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
+p {
+    color: black;
+}
+
 .nav-link {
     color: aquamarine;
 }
@@ -164,6 +168,7 @@ body{
     min-height: 420px;
     background: #ffffff;
 }
+
 
 .bear-story-photo {
     flex: 0 0 50%;
