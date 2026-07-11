@@ -116,6 +116,82 @@ p {
     text-decoration: none;
 }
 
+.product-card {
+    height: 100%;
+    border: 1px solid rgba(23, 63, 53, .22);
+    border-top: 4px solid #f2b134;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(18, 55, 45, .12);
+}
+
+.product-card:hover {
+    border-color: rgba(23, 63, 53, .34);
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(18, 55, 45, .2);
+}
+
+.product-image {
+    display: flex;
+    min-height: 250px;
+    align-items: center;
+    justify-content: center;
+    background:
+        linear-gradient(145deg, rgba(242, 177, 52, .16), transparent 48%),
+        #f5faf7;
+    border-bottom: 1px solid rgba(23, 63, 53, .12);
+}
+
+.product-card .product-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    padding: 22px;
+}
+
+.product-body {
+    display: flex;
+    min-height: 235px;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.product-label {
+    margin-bottom: 8px;
+    color: #b26a00;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.product-card .card-title {
+    margin-bottom: 10px;
+    color: #212529;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.product-card .card-text {
+    color: #495057;
+    line-height: 1.55;
+}
+
+.product-card .btn {
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.catalog-callout {
+    padding: 20px 0 0;
+}
+
+.catalog-callout p {
+    margin-bottom: 12px;
+    color: #495057;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 #carouselExampleControls,
 .site-carousel {
     border-radius:8px;
