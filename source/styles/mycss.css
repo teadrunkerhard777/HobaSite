@@ -264,13 +264,16 @@ footer{
 align-items: center;
   
 }
-
+ 
+.call-anim {
+    animation: myAnim 2s ease 0s infinite  normal forwards;
+}
 .btn-primary:hover{
 
     background:#000ce6;
 
 }
- @keyframes myAnim {
+ /* @keyframes myAnim {
 	0%,
 	100% {
 		transform: rotate(0deg);
@@ -299,8 +302,8 @@ align-items: center;
 
 	90% {
 		transform: rotate(2deg);
-	}
-}
+    }
+	} */
 
 .sidebar {
 	color: rgb(10, 9, 9);
