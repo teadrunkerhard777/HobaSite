@@ -116,6 +116,82 @@ p {
     text-decoration: none;
 }
 
+.product-card {
+    height: 100%;
+    border: 1px solid rgba(23, 63, 53, .22);
+    border-top: 4px solid #f2b134;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(18, 55, 45, .12);
+}
+
+.product-card:hover {
+    border-color: rgba(23, 63, 53, .34);
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(18, 55, 45, .2);
+}
+
+.product-image {
+    display: flex;
+    min-height: 250px;
+    align-items: center;
+    justify-content: center;
+    background:
+        linear-gradient(145deg, rgba(242, 177, 52, .16), transparent 48%),
+        #f5faf7;
+    border-bottom: 1px solid rgba(23, 63, 53, .12);
+}
+
+.product-card .product-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    padding: 22px;
+}
+
+.product-body {
+    display: flex;
+    min-height: 235px;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.product-label {
+    margin-bottom: 8px;
+    color: #b26a00;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.product-card .card-title {
+    margin-bottom: 10px;
+    color: #212529;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.product-card .card-text {
+    color: #495057;
+    line-height: 1.55;
+}
+
+.product-card .btn {
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.catalog-callout {
+    padding: 20px 0 0;
+}
+
+.catalog-callout p {
+    margin-bottom: 12px;
+    color: #495057;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 #carouselExampleControls,
 .site-carousel {
     border-radius:8px;
@@ -185,10 +261,10 @@ p {
     flex-direction: column;
     justify-content: center;
     padding: 54px 64px 62px;
-    border-left: 5px solid #ffc107;
+    border-left: 7px solid #d99a22;
     background:
-        linear-gradient(135deg, rgba(255, 193, 7, .13), rgba(255, 255, 255, 0) 42%),
-        #ffffff;
+        linear-gradient(135deg, rgba(23, 63, 53, .12), transparent 48%),
+        #e9f2ed;
 }
 
 .bear-story-photo img {
@@ -245,17 +321,36 @@ color: white;
 
 }
 footer{
-
     margin-top:60px;
-
     background:#173f35;
-
     color:white;
-
     text-align:center;
-
+    border-top:4px solid #f2b134;
     padding:40px;
+    color:#ffffff;
+    font-family:"Segoe UI", Arial, sans-serif;
+    text-align:center;
+    box-shadow:0 -8px 24px rgba(18, 55, 45, .14);
+}
 
+footer p {
+    margin-bottom:0;
+    color:#ffffff;
+    font-size:18px;
+    font-weight:600;
+    line-height:1.7;
+    letter-spacing:.01em;
+}
+
+footer a {
+    color:#ffffff;
+    font-weight:600;
+    text-decoration:none;
+}
+
+footer a:hover,
+footer a:focus-visible {
+    color:#f2b134;
 }
 
 .media-link {
@@ -317,8 +412,28 @@ align-items: center;
 }
 
 .bear-panel {
-    border-top: 5px solid #ffc107;
-    background: #ffffff;
+    border-top: 7px solid #f2b134;
+    border-right: 1px solid #0f3028;
+    border-bottom: 1px solid #0f3028;
+    border-left: 1px solid #0f3028;
+    background:
+        linear-gradient(155deg, rgba(255, 255, 255, .08), transparent 40%),
+        #173f35;
+    box-shadow: 0 16px 32px rgba(18, 55, 45, .26);
+}
+
+.bear-panel .panel-kicker,
+.bear-panel .bear-fact span {
+    color: #f2b134;
+}
+
+.bear-panel h2,
+.bear-panel .bear-fact strong {
+    color: #ffffff;
+}
+
+.bear-panel .panel-lead {
+    color: #dce9e3;
 }
 
 .shop-panel {
@@ -342,6 +457,10 @@ align-items: center;
     font-weight: 800;
 }
 
+.sidebar.bear-panel h2 {
+    color: #ffffff;
+}
+
 .panel-lead {
     margin-bottom: 24px;
     color: #495057;
@@ -350,10 +469,12 @@ align-items: center;
 
 .page-intro {
     padding: 24px 28px;
-    border-left: 5px solid #ffc107;
+    border-left: 7px solid #d99a22;
     border-radius: 8px;
-    background: #ffffff;
-    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    background:
+        linear-gradient(105deg, rgba(255, 255, 255, .65), transparent 58%),
+        #f9e7ae;
+    box-shadow:0 10px 24px rgba(120, 84, 12, .16);
 }
 
 .page-intro h1 {
@@ -373,7 +494,7 @@ align-items: center;
 
 .bear-fact {
     padding: 14px 0;
-    border-top: 1px solid #e9ecef;
+    border-top: 1px solid rgba(255, 255, 255, .16);
 }
 
 .bear-fact span {
@@ -400,6 +521,11 @@ align-items: center;
     color: #5c4700;
     font-weight: 600;
     line-height: 1.55;
+}
+
+.bear-panel .bear-quote {
+    border-radius: 0 6px 6px 0;
+    box-shadow: inset 0 0 0 1px rgba(217, 154, 34, .12);
 }
 
 .shop-features {

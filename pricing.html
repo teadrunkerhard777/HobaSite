@@ -1,233 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="source/styles/mycss.css">
 
-<link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
-<link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
 
   <title>Каталог Хабадков</title>
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark site-navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img src="source/images/logo.svg" alt="Hoba"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html">Home</a>
-          </li>
-        
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="pricing.html">Каталог Хабадков</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="bear.html">О Хабадо</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
-          </li>
-        </ul>
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pricing.html">Каталог Хабадков</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bear.html">О Хабадо</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </nav>
   </header>
 
-
   <section>
-
     <div class="container-fluid m-4">
-
       <div class="row">
+        <div class="col-lg-1"></div>
 
-        <!-- боковая панель -->
-        <div class="col-lg-1">
-        </div>
-
-
-        <!-- центр -->
         <div class="col-lg-8 col-md-12">
           <div class="row">
-
-
-
-            <!-- карта 1 -->
+            <div class="col-12">
+              <div class="page-intro my-4">
+                <p class="panel-kicker">Каталог Хабадков</p>
+                <h1>Уютная коллекция</h1>
+                <p>Медведи для дивана, подарка и важных переговоров с печеньем.</p>
+              </div>
+            </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-              <div class="card">
-                <a href="https://www.ozon.ru/product/myagkaya-igrushka-maxitoys-medved-plyushevyy-terri-130-sm-340893256/?at=K8tZNWKGBiZgZzlPHYP5wwBt47o0RETEzYz3mSAkJGG8&from_sku=340893390&oos_search=false"><img src="source/images/1.png" class="card-img-top" alt="medved1"></a>
-                <div class="card-body">
-                  <h5 class="card-title"><a href="https://www.ozon.ru/product/myagkaya-igrushka-maxitoys-medved-plyushevyy-terri-130-sm-340893256/?at=K8tZNWKGBiZgZzlPHYP5wwBt47o0RETEzYz3mSAkJGG8&from_sku=340893390&oos_search=false">Глупый медведь</a></h5>
-                  <p class="card-text"><a href="https://www.ozon.ru/product/myagkaya-igrushka-maxitoys-medved-plyushevyy-terri-130-sm-340893256/?at=K8tZNWKGBiZgZzlPHYP5wwBt47o0RETEzYz3mSAkJGG8&from_sku=340893390&oos_search=false">
-                    Медведь это как универсальный нож, на нем можно лежать, а еще он защищает валеру
-                      когда мы играем в пассы!
-                  </a></p>
+              <article class="card product-card h-100">
+                <a class="product-image" href="https://www.ozon.ru/product/myagkaya-igrushka-maxitoys-medved-plyushevyy-terri-130-sm-340893256/?at=K8tZNWKGBiZgZzlPHYP5wwBt47o0RETEzYz3mSAkJGG8&from_sku=340893390&oos_search=false">
+                  <img src="source/images/1.png" class="card-img-top" alt="Большой плюшевый медведь">
+                </a>
+                <div class="card-body product-body">
+                  <p class="product-label">Выбор для обнимания</p>
+                  <h5 class="card-title"><a href="https://www.ozon.ru/product/myagkaya-igrushka-maxitoys-medved-plyushevyy-terri-130-sm-340893256/?at=K8tZNWKGBiZgZzlPHYP5wwBt47o0RETEzYz3mSAkJGG8&from_sku=340893390&oos_search=false">Большой Хабадок</a></h5>
+                  <p class="card-text">Мягкий медведь, на котором можно лежать, грустить недолго и охранять запасы печенья.</p>
                   <a href="https://www.ozon.ru/product/myagkaya-igrushka-maxitoys-medved-plyushevyy-terri-130-sm-340893256/?at=K8tZNWKGBiZgZzlPHYP5wwBt47o0RETEzYz3mSAkJGG8&from_sku=340893390&oos_search=false" class="btn btn-primary">Купить</a>
                 </div>
-              </div>
-            </div>
-            <!-- карта 2 -->
-            <div class="col-lg-4 col-md-6 mt-4">
-              <div class="card">
-                <img src="source/images/2.png" class="card-img-top" alt="medved2">
-                <div class="card-body">
-                  <h5 class="card-title">Глупый медведь</h5>
-                  <p class="card-text">Медведь это как универсальный нож, на нем можно лежать, а еще он защищает валеру
-                    когда мы играем в пассы!</p>
-                  <a href="#" class="btn btn-primary">Купить</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- карта 3 -->
-            <div class="col-lg-4 col-md-6 mt-4">
-              <div class="card">
-                <img src="source/images/3.png" class="card-img-top" alt="medved3">
-                <div class="card-body">
-                  <h5 class="card-title">Глупый медведь</h5>
-                  <p class="card-text">Медведь это как универсальный нож, на нем можно лежать, а еще он защищает валеру
-                    когда мы играем в пассы!</p>
-                  <a href="#" class="btn btn-primary">Купить</a>
-                </div>
-              </div>
-            </div>
-
-
-
-
-            <div class="col-lg-4 col-md-6 mt-4">
-              <div class="card">
-                <img src="source/images/1.png" class="card-img-top" alt="medved1">
-                <div class="card-body">
-                  <h5 class="card-title">Глупый медведь</h5>
-                  <p class="card-text">Медведь это как универсальный нож, на нем можно лежать, а еще он защищает валеру
-                    когда мы играем в пассы!</p>
-                  <a href="#" class="btn btn-primary">Купить</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-4">
-              <div class="card">
-                <img src="source/images/1.png" class="card-img-top" alt="medved1">
-                <div class="card-body">
-                  <h5 class="card-title">Глупый медведь</h5>
-                  <p class="card-text">Медведь это как универсальный нож, на нем можно лежать, а еще он защищает валеру
-                    когда мы играем в пассы!</p>
-                  <a href="#" class="btn btn-primary">Купить</a>
-                </div>
-              </div>
+              </article>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-4">
-              <div class="card">
-                <img src="source/images/1.png" class="card-img-top" alt="medved1">
-                <div class="card-body">
-                  <h5 class="card-title">Глупый медведь</h5>
-                  <p class="card-text">Медведь это как универсальный нож, на нем можно лежать, а еще он защищает валеру
-                    когда мы играем в пассы!</p>
+              <article class="card product-card h-100">
+                <div class="product-image">
+                  <img src="source/images/2.png" class="card-img-top" alt="Плюшевый медведь для подарка">
+                </div>
+                <div class="card-body product-body">
+                  <p class="product-label">Подарочный формат</p>
+                  <h5 class="card-title">Добрый Хабадок</h5>
+                  <p class="card-text">Сидит спокойно, выглядит важно и делает комнату уютнее без лишних вопросов.</p>
                   <a href="#" class="btn btn-primary">Купить</a>
                 </div>
-              </div>
+              </article>
             </div>
-       <div class="col-lg-12 text-center mt-10">
-              <button type="button" class="btn btn-outline-primary my-4">позвонить глупому  Хабадо</button>
-            </div>
- 
 
-            <div class="col-lg-12 text-center mt-10">
+            <div class="col-lg-4 col-md-6 mt-4">
+              <article class="card product-card h-100">
+                <div class="product-image">
+                  <img src="source/images/3.png" class="card-img-top" alt="Плюшевый медведь для отдыха">
+                </div>
+                <div class="card-body product-body">
+                  <p class="product-label">Для отдыха</p>
+                  <h5 class="card-title">Сонный Хабадок</h5>
+                  <p class="card-text">Лучший кандидат на должность хранителя пледа и главного специалиста по выходным.</p>
+                  <a href="#" class="btn btn-primary">Купить</a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4">
+              <article class="card product-card h-100">
+                <div class="product-image">
+                  <img src="source/images/1.png" class="card-img-top" alt="Плюшевый медведь для дивана">
+                </div>
+                <div class="card-body product-body">
+                  <p class="product-label">Диванный эксперт</p>
+                  <h5 class="card-title">Важный Хабадок</h5>
+                  <p class="card-text">Занимает почетное место на диване и внимательно следит, чтобы никто не скучал.</p>
+                  <a href="#" class="btn btn-primary">Купить</a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4">
+              <article class="card product-card h-100">
+                <div class="product-image">
+                  <img src="source/images/2.png" class="card-img-top" alt="Плюшевый медведь для настроения">
+                </div>
+                <div class="card-body product-body">
+                  <p class="product-label">Для настроения</p>
+                  <h5 class="card-title">Веселый Хабадок</h5>
+                  <p class="card-text">Подходит для тех дней, когда нужен кто-то мягкий, терпеливый и очень серьезный.</p>
+                  <a href="#" class="btn btn-primary">Купить</a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-4">
+              <article class="card product-card h-100">
+                <div class="product-image">
+                  <img src="source/images/3.png" class="card-img-top" alt="Плюшевый медведь для коллекции">
+                </div>
+                <div class="card-body product-body">
+                  <p class="product-label">В коллекцию</p>
+                  <h5 class="card-title">Редкий Хабадок</h5>
+                  <p class="card-text">Смотрит так, будто уже знает все секреты дома, но никому их не расскажет.</p>
+                  <a href="#" class="btn btn-primary">Купить</a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-12 text-center mt-4 catalog-callout">
+              <button type="button" class="btn btn-outline-primary my-4">позвонить глупому Хабадо</button>
               <p>Can we help you?</p>
-            </div>
-
-            <div class="col-lg-12 text-center">
-
               <img class="call-anim" style="width: 68px;" src="source/images/free-icon-phone-6238796.png" alt="">
             </div>
           </div>
         </div>
 
-        <!-- боковая панель -->
-
         <div class="col-lg-3 col-md-12">
           <div class="row px-2">
-            <aside class="col-lg-12 sidebar shop-panel my-4">
+            <aside class="col-lg-12 sidebar bear-panel my-4">
               <p class="panel-kicker">Выбор Хабадо</p>
-              <h2>Уютная коллекция</h2>
-              <p class="panel-lead">Медведи, которые готовы стать хранителями хорошего настроения.</p>
+              <h2>Каталог уюта</h2>
+              <p class="panel-lead">Каждый Хабадок проходит строгую проверку на мягкость, терпение и способность сидеть рядом без лишнего шума.</p>
 
-              <ul class="shop-features">
-                <li>
-                  <strong>Мягкие</strong>
-                  <span>Проверены на удобство объятий</span>
-                </li>
-                <li>
-                  <strong>Надежные</strong>
-                  <span>Не рассказывают чужие секреты</span>
-                </li>
-                <li>
-                  <strong>Особенные</strong>
-                  <span>У каждого свой характер</span>
-                </li>
-              </ul>
+              <div class="bear-fact">
+                <span>Мягкие</span>
+                <strong>Проверены на удобство объятий</strong>
+              </div>
+              <div class="bear-fact">
+                <span>Надежные</span>
+                <strong>Не рассказывают чужие секреты</strong>
+              </div>
+              <div class="bear-fact">
+                <span>Особенные</span>
+                <strong>У каждого свой характер и любимое место на диване</strong>
+              </div>
 
-              <p class="shop-note">Выбирайте не спеша. Настоящий медведь сам подаст знак.</p>
+              <p class="bear-quote">Выбирайте не спеша. Настоящий медведь сам подаст знак.</p>
             </aside>
           </div>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-
   </section>
 
-
-
   <footer class="mt-4">
-<div class="container-fluid">
-<div class="row">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 text-center">
+          <p>Контакты<br>O nas <br>adminsk1-leva top</p>
+        </div>
 
-<div class="col-lg-4 col-md-12 text-center">
-<p>Контакты<br>O nas <br>adminsk1-leva top</p>
+        <div class="col-lg-4 col-md-12 text-center"></div>
 
-</div>
-
-
-<div class="col-lg-4 col-md-12 text-center">
-
-  
-</div>
-
-<div class="col-lg-4 col-md-12 text-center media-link">
-<img style="width: 40px; margin-inline: 1em;" src="source/images/free-icon-telegram-5968804.png" alt="...">
-  <img style="width: 40px; margin-inline: 1em;" src="source/images/free-icon-youtube-1384060.png" alt="...">
-  
-</div>
-
-
-
-</div>
+        <div class="col-lg-4 col-md-12 text-center media-link">
+          <img style="width: 40px; margin-inline: 1em;" src="source/images/free-icon-telegram-5968804.png" alt="...">
+          <img style="width: 40px; margin-inline: 1em;" src="source/images/free-icon-youtube-1384060.png" alt="...">
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
 </body>
-
 
 </html>
